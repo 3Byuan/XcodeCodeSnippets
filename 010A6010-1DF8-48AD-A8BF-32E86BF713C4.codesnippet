@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>newlabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *lbl = [UILabel new];
+lbl.backgroundColor = [UIColor clearColor];
+lbl.textColor = [UIColor ys_preferColorWithType:YSColorC3Type];
+lbl.font = [UIFont ys_preferredFontOfChineseWithFontSize:YSFontSizeF28];
+lbl.text = @"&lt;#textstring#&gt;";
+lbl;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>010A6010-1DF8-48AD-A8BF-32E86BF713C4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>used for create a UILabel object</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Convinient UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

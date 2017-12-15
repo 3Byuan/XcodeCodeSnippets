@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>newbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+[btn setBackgroundColor:[UIColor whiteColor]];
+[btn setImage:[UIImage imageNamed:@"&lt;#normalImage#&gt;"] forState:UIControlStateNormal];
+[btn setImage:[UIImage imageNamed:@"&lt;#highlightedImage#&gt;"] forState:UIControlStateHighlighted];
+[[btn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+    &lt;#code#&gt;
+}];
+btn;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>371CBFAB-7008-45E7-818D-CF4180E3C2F0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create a UIButton object with state image</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Convinient UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
